@@ -10,7 +10,7 @@ namespace Hangfire.Schedule.ScheduleJobs.Managers
         {
             var fromAddress = new MailAddress("ensar.src94@gmail.com", "Ensar Saraç");
             var toAddress = new MailAddress("ensar.src94@gmail.com");
-            const string fromPassword = "judo rwep xbju fqwi";
+            const string fromPassword = ".";
 
             var smtp = new SmtpClient
             {
